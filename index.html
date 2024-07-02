@@ -6,25 +6,11 @@
     <title>Pinkflash Store</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body {
-            background-color: #FFB2D0; /* Light gray background color */
-        }
-        .container {
-            margin-top: 20px;
+         body {
+            background-color: #FFB2D0;
         }
         .hr {
-            border-top: 2px solid #E75480;
-        }
-        .img-thumbnail {
-            max-width: 100%;
-            height: auto;
-        }
-        #carts {
-            resize: none;
-        }
-        #total, #change {
-            font-size: 18px;
-            font-weight: bold;
+            border-top: 1px solid #E75480;
         }
     </style>
 </head>
@@ -32,93 +18,94 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2> <font color="#E75480"> Pinkflash Make up Store </h2></font>
+                <h2><font color="#E75480">Pinkflash Make up Store</h2></font>
                 <hr class="hr" />
             </div>
         </div>
         <div class="row">
             <div class="col-4 text-center">
-                <label id="product1"> Make up set (Foundation, Concealer, Sponge)</label>
-                <img src="image1.png" class="img-thumbnail"/><br>
-                <label for="product1" id="price1">268.00</label>
+                <label id="product1">Foundation and Concealer</label>
+                <img src="image1.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
+                <label for="price1" id="price1">27000.00</label>
                 <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product2"> Make up eyeshadow with Highlighter, Contour, blush</label>
-                <img src="image2.png" class="img-thumbnail"/><br>
-                <label for="product2" id="price2">183.00</label>
+                <label id="product2">Eyeshadow Pallete</label>
+                <img src="image2.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
+                <label for="price2" id="price2">37000.00</label>
                 <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"/><br>
             </div>
-            <div class="col-4 text-center">
-                <label id="product3"> Make up 2 in 1 sculping eyebrow wax</label>
-                <img src="image3.png" class="img-thumbnail"/><br>
+             <div class="col-4 text-center">
+                <label id="product3"> 2 in 1 Eyebrow wax</label>
+                <img src="image3.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product3" id="price3">103.00</label>
                 <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product4"> Make up Eye set (Eyeliner, Eyebrow, Mascara)</label>
-                <img src="image4.png" class="img-thumbnail"/><br>
+                <label id="product4"> Eyeliner, Eyebrow, Mascara </label>
+                <img src="image4.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product4" id="price4">177.00</label>
                 <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product5"> Make up brushes smooth make up brushes</label>
-                <img src="image5.png" class="img-thumbnail"/><br>
+                <label id="product5"> Make up Brushes</label>
+                <img src="image5.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product5" id="price5">859.00</label>
                 <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product6"> Make up 4pcs matte liquid lipstick </label>
-                <img src="image6.png" class="img-thumbnail"/><br>
+                <label id="product6"> 4pcs Matte lipstick </label>
+                <img src="image6.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product6" id="price6">219.00</label>
                 <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product7"> Make up Moisturizing Shimmer glossy </label>
-                <img src="image7.png" class="img-thumbnail"/><br>
+                <label id="product7"> Lip Gloss </label>
+                <img src="image7.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product7" id="price7">119.00</label>
                 <input type="number" class="form-control" id="qty7" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product8"> Make up Hydrating Setting Spray </label>
-                <img src="image8.png" class="img-thumbnail"/><br>
+                <label id="product8"> Setting Spray </label>
+                <img src="image8.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product8" id="price8">209.00</label>
                 <input type="number" class="form-control" id="qty8" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product9"> Make up Oil Control Press Powder </label>
-                <img src="image9.png" class="img-thumbnail"/><br>
+                <label id="product9"> Press Powder </label>
+                <img src="image9.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product9" id="price9">134.00</label>
                 <input type="number" class="form-control" id="qty9" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product10"> Make up Pore Minimizer Face Primer</label>
-                <img src="image10.png" class="img-thumbnail"/><br>
+                <label id="product10"> Face Primer</label>
+                <img src="image10.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product10" id="price10">169.00</label>
                 <input type="number" class="form-control" id="qty10" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product11"> Make up Double Shaping (Highlighter, Contour) </label>
-                <img src="image11.png" class="img-thumbnail"/><br>
+                <label id="product11"> Highlighter and Contour </label>
+                <img src="image11.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product11" id="price11">159.00</label>
                 <input type="number" class="form-control" id="qty11" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4 text-center">
-                <label id="product12"> Make up Soft Powder Blush on </label>
-                <img src="image12.png" class="img-thumbnail"/><br>
+                <label id="product12"> Blush on </label>
+                <img src="image12.png" style="width: 150px; height: 100px;" class="img-thumbnail"/><br>
                 <label for="product12" id="price12">69.00</label>
                 <input type="number" class="form-control" id="qty12" placeholder="Enter quantity"/><br>
             </div>
             <div class="col-4">
-                <label for="carts"> Orders </label><br>
-                <textarea class="form-control" rows="29" id="carts" cols="200" readonly style="width: 100%; height: 400px; font-size: 12px;"></textarea>
-                <input type="text" class="form-control border-0" id="total" readonly placeholder="Total"/> 
-                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered"/>
-                <input type="text" class="form-control border-0" id="change" readonly placeholder="Change"/>
+                <label for="carts">Orders</label><br>
+                <textarea class="form-control" rows="10" id="carts" readonly></textarea><br>
+                <input type="text" class="form-control" id="total" readonly placeholder="Total"/><br>
+                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered"/><br>
+                <input type="text" class="form-control" id="change" readonly placeholder="Change"/><br>
+                <button class="btn btn-primary btn-block" onclick="calculateTotal()">Calculate Total</button>
             </div>
         </div>
     </div>
+
     <script src="app.js"></script>
 </body>
-  </html>
-
+</html>
