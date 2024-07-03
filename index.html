@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinkflash Makeup Store</title>
+    <title>Pinkflash Makeup Cosmetics</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-         body {
+        body {
             background-color: #FFB2D0;
         }
-        .hr {
-            border-top: 1px solid #E75480;
+        .container {
+            margin-top: 20px;
         }
-         .img-thumbnail {
+        .hr {
+            border-top: 2px solid #E75480;
+        }
+        .img-thumbnail {
             max-width: 100%;
             height: auto;
         }
@@ -23,67 +26,101 @@
             font-size: 18px;
             font-weight: bold;
         }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card-title {
+            color: #ff69b4; /* Pink color for the brand */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-             <br> <br>
                 <h2><font color="#E75480"><b>Pinkflash Makeup Cosmetics</h2></b></font>
                 <p style="color: #F778A1; text-align: right;"><b><i>Yesha Pearl Samera</i></b></p>
                 <hr class="hr" />
             </div>
         </div>
-    <br> <br>
         <div class="row">
-            <div class="col-4 text-center">
-                <label id="product1"><b> Eyeshadow w/ 9pcs Make up set </b></label>
-                <img src="image1.png" class="img-thumbnail"/><br>
-                <label for="price1" id="price1"><b>899</b></label>
-                <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"/><br>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image1.png" class="card-img-top img-thumbnail" alt="Eyeshadow w/ 9pcs Makeup Set">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>Eyeshadow w/ 9pcs Makeup Set</b></h5>
+                        <p class="card-text"><b>Price: <span id="price1">899.00</span></b></p>
+                        <input type="number" class="form-control" id="qty1" placeholder="Enter quantity"/>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 text-center">
-                <label id="product2"><b> Eyeshadow w/ 8pcs Make up set </b></label>
-                <img src="image2.png" class="img-thumbnail"/><br>
-                <label for="price2" id="price2"><b>799.00</b></label>
-                <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"/><br>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image2.png" class="card-img-top img-thumbnail" alt="Eyeshadow w/ 8pcs Makeup Set">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>Eyeshadow w/ 8pcs Makeup Set</b></h5>
+                        <p class="card-text"><b>Price: <span id="price2">799.00</span></b></p>
+                        <input type="number" class="form-control" id="qty2" placeholder="Enter quantity"/>
+                    </div>
+                </div>
             </div>
-             <div class="col-4 text-center">
-                <label id="product3"><b> Setting Spray w/ Foundation Concealer</b></label>
-                <img src="image3.png" class="img-thumbnail"/><br>
-                <label for="product3" id="price3"><b>299.00</b></label>
-                <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"/><br>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image3.png" class="card-img-top img-thumbnail" alt="Setting Spray w/ Foundation Concealer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>Setting Spray w/ Foundation Concealer</b></h5>
+                        <p class="card-text"><b>Price: <span id="price3">299.00</span></b></p>
+                        <input type="number" class="form-control" id="qty3" placeholder="Enter quantity"/>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 text-center">
-                <label id="product4"><b> Eyeliner, Eyebrow, Mascara with Curler </b></label>
-                <img src="image4.png" class="img-thumbnail"/><br>
-                <label for="product4" id="price4"><b>199.00</b></label>
-                <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"/><br>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image4.png" class="card-img-top img-thumbnail" alt="Eyeliner, Eyebrow, Mascara with Curler">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>Eyeliner, Eyebrow, Mascara with Curler</b></h5>
+                        <p class="card-text"><b>Price: <span id="price4">199.00</span></b></p>
+                        <input type="number" class="form-control" id="qty4" placeholder="Enter quantity"/>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 text-center">
-                <label id="product5"><b> Multi-use Duo Make up Brushes </b></label>
-                <img src="image5.png" class="img-thumbnail"/><br>
-                <label for="product5" id="price5"><b>859.00</b></label>
-                <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"/><br>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image5.png" class="card-img-top img-thumbnail" alt="Multi-use Duo Makeup Brushes">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>Multi-use Duo Makeup Brushes</b></h5>
+                        <p class="card-text"></b>Price: <span id="price5">899.00</span></b></p>
+                        <input type="number" class="form-control" id="qty5" placeholder="Enter quantity"/>
+                    </div>
+                </div>
             </div>
-            <div class="col-4 text-center">
-                <label id="product6"><b> Eyebrow wax and Eyeliner stamp </b></label>
-                <img src="image6.png" class="img-thumbnail"/><br>
-                <label for="product6" id="price6"><b>328.00</b></label>
-                <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"/><br>
-            </div>
-            <div class="col-12">
-                <label for="carts"><b><center><font size="4">Orders</b></center></label><br></font>
-                <textarea class="form-control" rows="10" id="carts" readonly></textarea><br>
-                <input type="text" class="form-control" id="total" readonly placeholder="Total"/><br>
-                <input type="number" class="form-control" id="cash" placeholder="Cash Tendered"/><br>
-                <input type="text" class="form-control" id="change" readonly placeholder="Change"/><br>
-                <button class="btn btn-primary btn-block" onclick="calculateTotal()">Calculate Total</button>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image6.png" class="card-img-top img-thumbnail" alt="Eyebrow wax and Eyeliner Stamp">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>Eyebrow wax and Eyeliner Stamp</b></h5>
+                        <p class="card-text"><b>Price: <span id="price6">299.00</span></b></p>
+                        <input type="number" class="form-control" id="qty6" placeholder="Enter quantity"/>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><center>Orders</center></h5>
+                        <textarea class="form-control" rows="10" id="carts" cols="200" readonly></textarea>
+                        <div class="mt-3">
+                            <input type="text" class="form-control border-0 mb-2" id="total" readonly placeholder="Total"/> 
+                            <input type="number" class="form-control mb-2" id="cash" placeholder="Cash Tendered"/>
+                            <input type="text" class="form-control border-0" id="change" readonly placeholder="Change"/>
+                        </div>
+                    </div>
+                </div>  
+            </div>          
+        </div>
     </div>
-
     <script src="app.js"></script>
 </body>
 </html>
